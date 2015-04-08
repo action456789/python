@@ -64,3 +64,4 @@ print [d for d in os.listdir('.') if os.path.isdir(d)]
 
 #4.2 列出所有.py 文件
 print [py for py in os.listdir('.') if os.path.isfile(py) and os.path.splitext(py)[1] == '.py']
+
