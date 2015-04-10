@@ -17,8 +17,8 @@ class Student(object):
 		}
 
 	#自定义的JSON反序列化的函数
-	def dict2student(d):
-		return Student(d['name'], d['age'], d['score'])
+	#def dict2student(d):
+	#	return Student(d['name'], d['age'], d['score'])
 
 	def __str__(self):
 		return 'Student object (name: %s, age: %d, score: %.1f)' %(self.name, self.age, self.score)
