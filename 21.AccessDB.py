@@ -65,3 +65,5 @@ conn.close()
 
 # 如果SQL语句带有参数，那么需要把参数按照位置传递给execute()方法，有几个?占位符就必须对应几个参数，例如：
 # cursor.execute('select * from user where id=?', '1')
+
+# 如何才能确保出错的情况下也关闭掉Connection对象和Cursor对象呢？请回忆try:...except:...finally:...的用法。
